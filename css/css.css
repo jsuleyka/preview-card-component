@@ -1,0 +1,30 @@
+.background {
+    background-color: bisque;
+    width: 1440px;
+}
+
+.card-container {
+    background-color: white;
+    border-radius: 25px;
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+}
+
+.card-container .img-container img {
+    /* width: 50%; */
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+p {
+    font-size: 14px;
+}
+
+/* .attribution { 
+    font-size: 11px; text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} */
