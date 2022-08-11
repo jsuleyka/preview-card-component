@@ -1,25 +1,116 @@
+p {
+    font-size: 14px;
+}
+
 .background {
-    background-color: bisque;
+    background-color: hsl(30, 38%, 92%);
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 1440px;
 }
 
 .card-container {
     background-color: white;
     border-radius: 25px;
-    margin: 0 auto;
-    width: 50%;
     display: flex;
+    align-items: flex-start;
+    height: 380px;
+    width: 500px;
+}
+
+.card-container .img-container {
+    /* width: 250px; */
 }
 
 .card-container .img-container img {
-    /* width: 50%; */
+    /* background: url(../images/image-product-desktop.jpg);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; */
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+    height: 380px;
+    width: 250px;
 }
 
-p {
-    font-size: 14px;
+.card-container .text-container {
+    padding: 10px 25px;
 }
+
+.card-container .text-container p.title {
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.card-container .text-container p.name-essence, .card-container .text-container p span.new-price {
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+}
+
+.card-container .text-container p.name-essence {
+    margin: 0;
+}
+
+.card-container .text-container p.description {
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.card-container .text-container p.price {
+    margin-bottom: 20px;
+}
+.card-container .text-container p span.new-price {
+    color: hsl(158, 36%, 37%);
+    margin-right: 15px;
+}
+
+.card-container .text-container p.price sup {
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-decoration: line-through;
+}
+
+.card-container .text-container .btn-container {
+    display: block;
+}
+
+.card-container .text-container .btn-container button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 15px 25px;
+    width: 100%;
+}
+
+.card-container .text-container .btn-container button i {
+    color: white;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.card-container .text-container .btn-container button:active, 
+.card-container .text-container .btn-container button:hover,
+.card-container .text-container .btn-container button:focus,
+.card-container .text-container .btn-container button:visited {
+    background-color: #013220;
+}
+
 
 /* .attribution { 
     font-size: 11px; text-align: center;
