@@ -109,6 +109,27 @@ p {
         font-size: 12px;
         margin-right: 8px;
     }
+
+    .attribution { 
+        background-color: blueviolet;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .attribution p, .attribution p  a {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .attribution p  a {
+        text-decoration: none;
+    }
+
+    .attribution p  a:active, .attribution p  a:hover, .attribution p  a:focus, .attribution p  a:visited {
+        text-decoration: underline;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -148,12 +169,4 @@ p {
     .card-container .text-container p.price {
         margin-bottom: 25px;
     }
-
-    /* .attribution { 
-        font-size: 11px; text-align: center;
-    }
-
-    .attribution a { 
-        color: hsl(228, 45%, 44%); 
-    } */
 }
