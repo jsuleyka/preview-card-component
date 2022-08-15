@@ -32,3 +32,5 @@ My project deployed, you can find below:
 I completed this challenge, however, if you consider a better way to build this challenge or I need to fix any bug in my code, Please feel free to provide feedbacks.
 
 - [Github Repository](https://jsuleyka.github.io/preview-card-component/)
+
+## By Suleyka
