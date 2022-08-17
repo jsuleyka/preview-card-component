@@ -1,139 +1,141 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
 p {
     font-size: 14px;
 }
 
-@media (min-width: 375px) {
-    .background {
-        background-color: hsl(30, 38%, 92%);
-        display: flex;
-        justify-content: center;
-        height: 700px;
-        padding: 25px 10px;
-    }
-
-    .card-container {
-        border-radius: 10px;
-        width: 375px;
-    }
-
-    .card-container .img-container img {
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        display: block;
-        margin: 0 auto;
-        width: 315px;
-    }
-
-    .card-container .img-container img.hidden-dk {
-        display: none;
-    }
-
-    .card-container .text-container {
-        background-color: white;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        margin: 0 30px;
-        padding: 1px 25px 20px;
-        width: 265px;
-    }
-
-    .card-container .text-container p.title {
-        color: grey;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 12px;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-    }
-
-    .card-container .text-container p.name-essence, .card-container .text-container p span.new-price {
-        font-family: 'Fraunces', serif;
-        font-size: 28px;
-    }
-
-    .card-container .text-container p.name-essence {
-        line-height: 28px;
-        margin: 0;
-    }
-
-    .card-container .text-container p.description {
-        color: grey;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 12.7px;
-        line-height: 20px;
-        margin-bottom: 20px;
-    }
-
-    .card-container .text-container p.price {
-        margin-bottom: 15px;
-    }
-    .card-container .text-container p span.new-price {
-        color: hsl(158, 36%, 37%);
-        margin-right: 15px;
-    }
-
-    .card-container .text-container p.price sup {
-        color: grey;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 10px;
-        text-decoration: line-through;
-    }
-
-    .card-container .text-container .btn-container {
-        display: block;
-    }
-
-    .card-container .text-container .btn-container button {
-        background-color: hsl(158, 36%, 37%);
-        border: none;
-        border-radius: 5px;
-        color: white;
-        cursor: pointer;
-        display: block;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 11px;
-        letter-spacing: 1px;
-        font-weight: bold;
-        padding: 15px 25px;
-        width: 100%;
-    }
-
-    .card-container .text-container .btn-container button:active, 
-    .card-container .text-container .btn-container button:hover,
-    .card-container .text-container .btn-container button:focus,
-    .card-container .text-container .btn-container button:visited {
-        background-color: #013220;
-    }
-
-    .card-container .text-container .btn-container button i {
-        color: white;
-        font-size: 12px;
-        margin-right: 8px;
-    }
-
-    .attribution { 
-        background-color: blueviolet;
-        padding: 10px;
-        text-align: center;
-    }
-
-    .attribution p, .attribution p  a {
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        font-weight: bold;
-    }
-
-    .attribution p  a {
-        text-decoration: none;
-    }
-
-    .attribution p  a:active, .attribution p  a:hover, .attribution p  a:focus, .attribution p  a:visited {
-        text-decoration: underline;
-    }
+.container {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    padding: 25px 10px;
 }
 
-@media (min-width: 1440px) {
-    .background {
+.card-container {
+    border-radius: 10px;
+    width: 375px;
+}
+
+.card-container .img-container img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 315px;
+}
+
+.card-container .img-container img.hidden-dk {
+    display: none;
+}
+
+.card-container .text-container {
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0 30px;
+    padding: 1px 25px 20px;
+    width: 265px;
+}
+
+.card-container .text-container p.title {
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.card-container .text-container p.name-essence, .card-container .text-container p span.new-price {
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+}
+
+.card-container .text-container p.name-essence {
+    line-height: 28px;
+    margin: 0;
+}
+
+.card-container .text-container p.description {
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12.7px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.card-container .text-container p.price {
+    margin-bottom: 15px;
+}
+
+.card-container .text-container p span.new-price {
+    color: hsl(158, 36%, 37%);
+    margin-right: 15px;
+}
+
+.card-container .text-container p.price sup {
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-decoration: line-through;
+}
+
+.card-container .text-container .btn-container {
+    display: block;
+}
+
+.card-container .text-container .btn-container button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 15px 25px;
+    width: 100%;
+}
+
+.card-container .text-container .btn-container button:active, 
+.card-container .text-container .btn-container button:hover,
+.card-container .text-container .btn-container button:focus,
+.card-container .text-container .btn-container button:visited {
+    background-color: #013220;
+}
+
+.card-container .text-container .btn-container button i {
+    color: white;
+    font-size: 12px;
+    margin-right: 8px;
+}
+
+.attribution { 
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+}
+
+.attribution p, .attribution p  a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.attribution p  a {
+    text-decoration: none;
+}
+
+.attribution p  a:active, .attribution p  a:hover, .attribution p  a:focus, .attribution p  a:visited {
+    text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+    .container {
         align-items: center;
         width: 1440px;
     }
@@ -168,5 +170,9 @@ p {
 
     .card-container .text-container p.price {
         margin-bottom: 25px;
+    }
+
+    .attribution {
+        width: 1440px;
     }
 }
